@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Ivan Carnevali</title>
+    <link>http://localhost:4321/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Ivan Carnevali</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:4321/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruhlman Conference</title>
+      <link>http://localhost:4321/talk/ruhlman/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:4321/talk/ruhlman/</guid>
+      <description>&lt;p&gt;I was part of the &lt;strong&gt;Ruhlman Conference&lt;/strong&gt;, held on 11 April 2024 at &lt;strong&gt;Wellesley College&lt;/strong&gt; in Massachusetts, together with Professor Daniela Cavalcoli, delegated by the Rector of the Alma Mater Studiorum - Università di Bologna for the mobility of lecturers and students. One of the Ruhlman Conference&amp;rsquo;s goals is promoting research through interdisciplinary collaboration of students and lecturers, to encourage the enrichment of the College intellectual life. The Conference had an international outlook. In fact, six other students and I were selected from universities all over the world. During the conference I had the opportunity to share the results and experiences of my research, which investigates how the use of two different &lt;strong&gt;dimensionality reduction techniques (PCA and GPLVM)&lt;/strong&gt;, applied to a simulated dataset and a real dataset of handwritten digits, impacts on the quality of the latent spaces obtained. Attending the international conference provided new inspiration for the continuation of my journey. A special thanks to the Wellesley College staff for organizing the Conference and hosting us, and to Professor Daniela Cavalcoli for sharing this wonderful experience with me.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
