@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ivan Carnevali</title>
-    <link>https://IvanCarnevali.github.io/</link>
+    <link>http://localhost:4321/</link>
     <description>Recent content on Ivan Carnevali</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://IvanCarnevali.github.io/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Projects</title>
-      <link>https://IvanCarnevali.github.io/project/</link>
+      <link>http://localhost:4321/project/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://IvanCarnevali.github.io/project/</guid>
+      <guid>http://localhost:4321/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://IvanCarnevali.github.io/talk/</link>
+      <link>http://localhost:4321/talk/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://IvanCarnevali.github.io/talk/</guid>
+      <guid>http://localhost:4321/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://IvanCarnevali.github.io/post/</link>
+      <link>http://localhost:4321/post/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://IvanCarnevali.github.io/post/</guid>
+      <guid>http://localhost:4321/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://IvanCarnevali.github.io/publication/</link>
+      <link>http://localhost:4321/publication/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://IvanCarnevali.github.io/publication/</guid>
+      <guid>http://localhost:4321/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://IvanCarnevali.github.io/slides/</link>
+      <link>http://localhost:4321/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://IvanCarnevali.github.io/slides/</guid>
+      <guid>http://localhost:4321/slides/</guid>
       <description></description>
     </item>
     

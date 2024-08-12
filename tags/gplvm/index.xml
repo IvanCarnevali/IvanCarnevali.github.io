@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GPLVM on Ivan Carnevali</title>
-    <link>https://IvanCarnevali.github.io/tags/gplvm/</link>
+    <link>http://localhost:4321/tags/gplvm/</link>
     <description>Recent content in GPLVM on Ivan Carnevali</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://IvanCarnevali.github.io/tags/gplvm/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:4321/tags/gplvm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dimension reduction using PCA and GPLVM for Simulated Cylinder and Real Handwritten Digits</title>
-      <link>https://IvanCarnevali.github.io/project/thesis/</link>
+      <link>http://localhost:4321/project/thesis/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://IvanCarnevali.github.io/project/thesis/</guid>
+      <guid>http://localhost:4321/project/thesis/</guid>
       <description>&lt;p&gt;Dimensionality Reduction will be performed using PCA and GPLVM on a Simulated Cylinder and on a Real Handwritten Digits set (MNIST) in order to test the performances of the two techniques. This has been my thesis project for my bachelor’s degree. Click on the PDF button above to download the complete project.
 This has been my thesis project for my bachelor&amp;rsquo;s degree.
-Download the &lt;a href=&#34;https://IvanCarnevali.github.io/files/Thesis.pdf&#34;&gt;PDF&lt;/a&gt; of the complete project.&lt;/p&gt;
+Download the &lt;a href=&#34;http://localhost:4321/files/Thesis.pdf&#34;&gt;PDF&lt;/a&gt; of the complete project.&lt;/p&gt;
 </description>
     </item>
     

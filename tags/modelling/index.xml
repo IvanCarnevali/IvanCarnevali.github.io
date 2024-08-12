@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modelling on Ivan Carnevali</title>
-    <link>https://IvanCarnevali.github.io/tags/modelling/</link>
+    <link>http://localhost:4321/tags/modelling/</link>
     <description>Recent content in Modelling on Ivan Carnevali</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://IvanCarnevali.github.io/tags/modelling/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:4321/tags/modelling/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Analysis of property prices in Portsmouth</title>
-      <link>https://IvanCarnevali.github.io/project/house-prices/</link>
+      <link>http://localhost:4321/project/house-prices/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://IvanCarnevali.github.io/project/house-prices/</guid>
+      <guid>http://localhost:4321/project/house-prices/</guid>
       <description>&lt;p&gt;Few variables of interest will be used in order to investigate, after fitting an appropriate model, how the sale price is influenced by different properties of the houses. The analysis and the results will be presented using a Shiny App and a Poster.
-Download the &lt;a href=&#34;https://IvanCarnevali.github.io/files/Poster.pdf&#34;&gt;Poster&lt;/a&gt;.
+Download the &lt;a href=&#34;http://localhost:4321/files/Poster.pdf&#34;&gt;Poster&lt;/a&gt;.
 See the &lt;a href=&#34;https://ivancarnevali.shinyapps.io/Analysis_property_prices_Portsmouth/&#34;&gt;Shiny APP&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
