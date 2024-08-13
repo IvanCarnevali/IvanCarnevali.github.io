@@ -113,13 +113,39 @@
   <meta property="og:site_name" content="Ivan Carnevali">
   <meta property="og:url" content="http://localhost:4321/">
   <meta property="og:title" content="Ivan Carnevali">
-  <meta property="og:description" content="Ivan Carnevali&#39;s website"><meta property="og:image" content="http://localhost:4321/img/img/2.jpg">
-  <meta property="twitter:image" content="http://localhost:4321/img/img/2.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Ivan Carnevali&#39;s website"><meta property="og:image" content="http://localhost:4321/img/2.jpg">
+  <meta property="twitter:image" content="http://localhost:4321/img/2.jpg"><meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2024-07-25T00:00:00&#43;00:00">
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#fc6f5c",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#fc6f5c"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
 
   
@@ -1489,7 +1515,7 @@
       
       <li>
         <i class="fa-li fas fa-map-marker-alt mt-2" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">Piazza Vittorio Puintoni 1B</span>
+        <span id="person-address" itemprop="address">Piazza Vittorio Puntoni, Bologna</span>
       </li>
       
 
@@ -1505,7 +1531,7 @@
       <input id="map-provider" value="2">
       <input id="map-lat" value="44.49719">
       <input id="map-lng" value="11.35328">
-      <input id="map-dir" value="Piazza Vittorio Puintoni 1B">
+      <input id="map-dir" value="Piazza Vittorio Puntoni, Bologna">
       <input id="map-zoom" value="13">
       <input id="map-api-key" value="AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ">
     </div>
