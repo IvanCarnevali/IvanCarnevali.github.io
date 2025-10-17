@@ -2,25 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dimension Reduction on Ivan Carnevali</title>
-    <link>http://localhost:4321/tags/dimension-reduction/</link>
+    <link>http://localhost:6824/tags/dimension-reduction/</link>
     <description>Recent content in Dimension Reduction on Ivan Carnevali</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:4321/tags/dimension-reduction/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:6824/tags/dimension-reduction/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Dimension reduction using PCA and GPLVM for Simulated Cylinder and Real Handwritten Digits</title>
-      <link>http://localhost:4321/project/thesis/</link>
+      <title>Dimension Reduction using PCA and GPLVM for Simulated Cylinder and Real Handwritten Digits</title>
+      <link>http://localhost:6824/project/thesis/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:4321/project/thesis/</guid>
-      <description>&lt;p&gt;Dimensionality Reduction will be performed using PCA and GPLVM on a Simulated Cylinder and on a Real Handwritten Digits set (MNIST) in order to test the performances of the two techniques. This has been my thesis project for my bachelor’s degree. Click on the PDF button above to download the complete project.
-This has been my thesis project for my bachelor&amp;rsquo;s degree.
-Download the &lt;a href=&#34;http://localhost:4321/files/Thesis.pdf&#34;&gt;PDF&lt;/a&gt; of the complete project.&lt;/p&gt;
+      <guid>http://localhost:6824/project/thesis/</guid>
+      <description>&lt;p&gt;This project explores &lt;strong&gt;dimensionality reduction&lt;/strong&gt; techniques through a comparative analysis of &lt;strong&gt;Principal Component Analysis (PCA)&lt;/strong&gt; and &lt;strong&gt;Gaussian Process Latent Variable Models (GPLVM)&lt;/strong&gt;.&lt;br&gt;
+The methods were applied both to a &lt;strong&gt;simulated cylindrical dataset&lt;/strong&gt; and to the &lt;strong&gt;MNIST handwritten digits dataset&lt;/strong&gt; to evaluate and compare their effectiveness in capturing low-dimensional structures within high-dimensional data.&lt;/p&gt;
+&lt;p&gt;The work represents my &lt;strong&gt;bachelor’s thesis project&lt;/strong&gt;, focused on assessing the strengths and limitations of linear (PCA) and nonlinear (GPLVM) approaches for feature extraction and visualization.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:6824/files/Thesis.pdf&#34;&gt;Download the Thesis PDF&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

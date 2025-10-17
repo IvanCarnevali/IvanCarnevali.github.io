@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mixed-Effects Models on Ivan Carnevali</title>
+    <link>http://localhost:6824/tags/mixed-effects-models/</link>
+    <description>Recent content in Mixed-Effects Models on Ivan Carnevali</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:6824/tags/mixed-effects-models/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Population and Climate Change in Italy: Statistical Modelling and Regional Disparities</title>
+      <link>http://localhost:6824/project/climate-change/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:6824/project/climate-change/</guid>
+      <description>&lt;p&gt;This project explores whether &lt;strong&gt;climate change exacerbates economic and social disparities between northern and southern Italy&lt;/strong&gt;, combining &lt;strong&gt;socioeconomic indicators&lt;/strong&gt;, &lt;strong&gt;climate data&lt;/strong&gt;, and &lt;strong&gt;advanced statistical modelling&lt;/strong&gt;.&lt;br&gt;
+Data were collected from &lt;strong&gt;Eurostat&lt;/strong&gt;, &lt;strong&gt;Copernicus&lt;/strong&gt;, and &lt;strong&gt;ISTAT&lt;/strong&gt; for the period 2000–2023, harmonized at the &lt;strong&gt;NUTS2 regional level&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;After data cleaning and integration, a &lt;strong&gt;hierarchical mixed-effects model&lt;/strong&gt; was fitted to investigate the relationship between &lt;em&gt;GDP per capita&lt;/em&gt; and multiple climatic and demographic predictors, including &lt;em&gt;temperature, precipitation extremes, wind speed, fertility rate, life expectancy,&lt;/em&gt; and &lt;em&gt;employment rate&lt;/em&gt;.&lt;br&gt;
+The model incorporated &lt;strong&gt;random intercepts and slopes&lt;/strong&gt; for Italian regions, allowing for heterogeneity across the North, Centre, and South.&lt;/p&gt;
+&lt;h3 id=&#34;main-results&#34;&gt;Main Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Climate change acts as a &lt;strong&gt;multiplier of pre-existing regional inequalities&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Southern regions exhibit &lt;strong&gt;negative random slopes&lt;/strong&gt;, indicating slower or negative economic growth relative to the North.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extreme precipitation&lt;/strong&gt;, &lt;strong&gt;mean wind speed&lt;/strong&gt;, and &lt;strong&gt;fire weather index&lt;/strong&gt; significantly and negatively affect &lt;em&gt;GDP per capita&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;breakpoint analysis&lt;/strong&gt; on national temperature series showed a structural change in 2013—before the Paris Agreement—suggesting &lt;strong&gt;no measurable effect yet from international climate policy&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;methodology&#34;&gt;Methodology&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Random-effects linear models&lt;/strong&gt; with zone- and region-specific effects (&lt;code&gt;nlme&lt;/code&gt; package)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multicollinearity analysis&lt;/strong&gt; and variable selection (&lt;code&gt;corrplot&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geospatial visualization&lt;/strong&gt; of GDP and temperature trends (&lt;code&gt;ggplot2&lt;/code&gt;, &lt;code&gt;sf&lt;/code&gt;, &lt;code&gt;giscoR&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Breakpoint detection&lt;/strong&gt; for temperature time series (&lt;code&gt;strucchange&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data imputation&lt;/strong&gt; via the LOCF (Last Observation Carried Forward) method&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-sources&#34;&gt;Data Sources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Eurostat&lt;/strong&gt;: agriculture, economy, education, and tourism data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Copernicus&lt;/strong&gt;: climate and environmental variables&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ISTAT&lt;/strong&gt;: demographic and migration statistics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;downloads&#34;&gt;Downloads&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:6824/files/Population_and_climate_change.pdf&#34;&gt;📄 Full Report (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:6824/files/DATA.csv&#34;&gt;📊 Dataset (CSV)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:6824/files/Model.R&#34;&gt;💻 R Code and Analysis (Markdown)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;This project demonstrates how &lt;strong&gt;integrating climate and socioeconomic data through advanced modelling&lt;/strong&gt; can reveal subtle but significant disparities in resilience and adaptability across regions — providing a statistical foundation for &lt;strong&gt;evidence-based climate policy&lt;/strong&gt; in Italy.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

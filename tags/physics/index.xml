@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics on Ivan Carnevali</title>
+    <link>http://localhost:6824/tags/physics/</link>
+    <description>Recent content in Physics on Ivan Carnevali</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="http://localhost:6824/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pulse Shape Analysis - INFN (VIP Project)</title>
+      <link>http://localhost:6824/project/pulse-shape-analysis---infn-vip-project/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:6824/project/pulse-shape-analysis---infn-vip-project/</guid>
+      <description>&lt;h2 id=&#34;pulse-shape-analysis--infn-vip-project&#34;&gt;Pulse Shape Analysis – INFN (VIP Project)&lt;/h2&gt;
+&lt;p&gt;The work carried out within the &lt;strong&gt;VIP project&lt;/strong&gt; focused on the &lt;strong&gt;development and evaluation of automated analysis techniques&lt;/strong&gt; for waveforms acquired with &lt;strong&gt;Broad Energy Germanium (BEGe)&lt;/strong&gt; detectors. The discrimination between valid (“good”) pulses and degraded or noisy (“bad”) events represents a crucial step to improve the quality of the resulting energy spectra and to optimize the overall &lt;strong&gt;signal-to-noise ratio&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The dataset analyzed in this study included measurements collected between &lt;strong&gt;2021 and 2023&lt;/strong&gt;. Two complementary approaches were explored. The first consisted of a &lt;strong&gt;feature-based method&lt;/strong&gt;, involving the extraction of characteristic parameters from each waveform—such as rise and decay times, and other statistical descriptors—and the application of &lt;strong&gt;supervised machine learning algorithms&lt;/strong&gt;, including &lt;em&gt;Random Forest&lt;/em&gt;, &lt;em&gt;Gradient Boosting&lt;/em&gt;, and &lt;em&gt;K-Nearest Neighbors&lt;/em&gt;. These classical models provided interpretable and accurate baselines, demonstrating that waveform-shape parameters alone can achieve excellent classification performance.&lt;/p&gt;
+&lt;p&gt;The second approach applied &lt;strong&gt;machine learning directly to the raw waveforms&lt;/strong&gt;, without any manual feature extraction. This strategy takes full advantage of the detector signals as acquired, eliminating preprocessing and saving considerable time—an important benefit when dealing with large datasets where feature engineering is labor-intensive.&lt;/p&gt;
+&lt;p&gt;Building on this framework, a &lt;strong&gt;deep neural pipeline&lt;/strong&gt; was designed and implemented in &lt;em&gt;TensorFlow/Keras&lt;/em&gt;, comprising three main components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Convolutional Denoising Autoencoder (CDAE)&lt;/strong&gt; for signal denoising&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature Autoencoder (FAE)&lt;/strong&gt; for latent feature extraction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gaussian Mixture Variational Autoencoder (GMVAE)&lt;/strong&gt; for semi-supervised classification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The GMVAE model was trained using a &lt;strong&gt;composite loss function&lt;/strong&gt; that combined reconstruction error, Kullback–Leibler divergence, a supervised cross-entropy term, and a triplet loss component to enhance cluster separation in the latent space. Training was monitored via &lt;em&gt;TensorBoard&lt;/em&gt;, tracking loss, accuracy, and AUC throughout the process.&lt;/p&gt;
+&lt;p&gt;This architecture achieved up to &lt;strong&gt;98% classification accuracy&lt;/strong&gt; on both labeled and unlabeled events, confirming its ability to learn meaningful waveform representations even when only limited labeled data were available. The &lt;strong&gt;semi-supervised learning capability&lt;/strong&gt; of the model significantly reduces the need for manual labeling, which is typically one of the most time-consuming tasks in detector data analysis.&lt;/p&gt;
+&lt;p&gt;Overall, the results demonstrated that both approaches effectively discriminate valid from degraded pulses, each offering distinct advantages. The &lt;strong&gt;feature-based models&lt;/strong&gt; provide fast, interpretable, and reliable baselines that are useful for comparison with standard experimental procedures. Conversely, the &lt;strong&gt;deep learning pipeline&lt;/strong&gt; achieves comparable or superior accuracy while drastically reducing dependence on labeled data, paving the way for &lt;strong&gt;scalable and automated waveform analysis&lt;/strong&gt; in future detector systems.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Download the &lt;a href=&#34;http://localhost:6824/files/RisultatiINFN.pptx&#34;&gt;Slides&lt;/a&gt;&lt;/strong&gt; with the results obtained.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
